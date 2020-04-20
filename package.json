@@ -1,20 +1,8 @@
 {
-  "name": "tech.bano.arclight",
-  "version": "0.0.1",
-  "description": "Arclight is a completely customizable game launcher framework. Make it your own!",
+  "name": "your-app",
+  "version": "0.1.0",
   "main": "main.js",
   "scripts": {
-    "test": "alert(\"test\")"
-  },
-  "theme-color": "#4600af",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/banotech/Arclight.git"
-  },
-  "keywords": [
-    "game",
-    "launcher"
-  ],
-  "author": "Banotech Software",
-  "license": "GPL-3.0-or-later"
+    "start": "electron ."
+  }
 }

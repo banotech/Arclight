@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Hello World!</title>
+		<!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
+		<meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+
+		<link rel="stylesheet" href="f7/framework7.bundle.min.css">
+    	<link rel="stylesheet" href="f7/framework7-icons.css">
+
+	</head>
+	<body>
+		<div id="app">
+
+			<!-- Your main view, should have "view-main" class -->
+			<div class="view view-main">
+				<!-- Initial Page, "data-name" contains page name -->
+				<div data-name="home" class="page">
+
+					<!-- Top Navbar -->
+					<div class="navbar">
+						<div class="navbar-bg"></div>
+						<div class="navbar-inner">
+							<div class="title">Awesome App</div>
+						</div>
+					</div>
+
+					<!-- Bottom Toolbar -->
+					<div class="toolbar toolbar-bottom">
+						<div class="toolbar-inner">
+							<!-- Toolbar links -->
+							<a href="#" class="link">Link 1</a>
+							<a href="#" class="link">Link 2</a>
+						</div>
+					</div>
+
+					<!-- Scrollable page content -->
+					<div class="page-content">
+						<p>Page content goes here</p>
+						<!-- Link to another page -->
+						<a href="/about/">About app</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	
+
+
+		<script type="text/javascript" src="f7/jquery.js"></script>
+		<script type="text/javascript" src="f7/framework7.min.js"></script>
+		<script type="text/javascript" src="f7/framework7.bundle.min.js"></script>
+		<script type="text/javascript" src="bin/f7init.js"></script>
+	</body>
+</html>
